@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html {
+    font-family: "Open Sans", sans-serif;
+    border-left: 5px solid;
+    border-left-color: lightgray;
+}
+
+body {
+    min-height: 100%;
+    margin: auto;
+    max-width: 1000px;
+}
+
+header, main, footer {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    color: tomato;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    margin: auto;
+}
+
+.post-text::first-letter {
+    font-size: 4rem;
+    color: lightgray;
+    float: left;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.continues-button{
+    display: flex;
+    flex-direction: row-reverse;
+    color: tomato;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: lightgray;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.list-buttons {
+    display: flex;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.footer-list-button {
+    color: tomato;
+    text-decoration-line: none;
+}
+
+.footer-line {
+    border-left: 2px solid lightgray;
+}
+
+time {
+    font-size: 2rem;
+    color: gray;
+    font-weight: 300;
+}
+
+.copyright {
+    color: lightgray;
+}
